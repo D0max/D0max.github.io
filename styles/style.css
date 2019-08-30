@@ -956,7 +956,7 @@ footer{
     bottom: -13px;
   }
   .stay-in-touch .info .pc-info input {
-    width: 100%;
+    width: 225px;
   }
   .stay-in-touch .info textarea {
     width: 100%;
@@ -968,5 +968,11 @@ footer{
     justify-content: space-evenly;
     width: 100%;
     margin-top: 20px;
+  }
+
+  .stay-in-touch .info .form {
+    width: 100%;
+    display: flex;
+    justify-content: center;
   }
 }
