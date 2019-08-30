@@ -776,11 +776,11 @@ footer{
     display: flex;
     flex-direction: column;
     align-items: center;
-    position: absolute;
-    left: 69px;
+    right: 0;
     top: 60px;
     padding: 13px 0;
     background: #1d2126;
+    position: absolute;
   }
   .nav-items a {
     border: none;
@@ -861,7 +861,6 @@ footer{
     background: #fff;
   }
   .navigation{
-    position: relative;
     width: 100%;
   }
 
