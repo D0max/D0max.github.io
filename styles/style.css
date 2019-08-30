@@ -48,14 +48,15 @@ hr{
 .nav{
   display: flex;
   margin-top: 20px;
+  margin-right: 88px;
 }
 .nav-items{
-  margin-right: 15px;
+  margin-right: 12px;
 }
 .nav-items a {
   color: #a4aead;
   font-family: 'Open Sans', sans-serif;
-  padding: 5px 10px;
+  padding: 4px 10px;
   font-size: 14px;
   font-weight: 400;
   line-height: 42px;
@@ -148,16 +149,15 @@ hr{
 .slider-nav ul{
   display: flex !important;
   position: absolute;
-  bottom: 26px;
-  right: 15%;
+  bottom: 29px;
+  right: 58px;
 }
 .slider-nav li{
-
+  margin-right: 1px;
 }
 .slider-nav li button{
-  margin: 0 5px;
-  width: 16px;
-  height: 15px;
+  margin: 0 3px;
+  padding: 5px;
   border: 2px solid #ffffff;
   border-radius: 50%;
   background-color: transparent;
@@ -176,17 +176,18 @@ hr{
 .carousel img{
   width: 100%;
   object-fit: cover;
+  height: 660px;
 }
 .carousel-text{
   position: absolute;
-  top: 20%;
-  width: 737px;
+  top: 33%;
+  width: 678px;
 }
 .carousel-text .title{
   color: #ffffff;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 36px;
-  font-weight: 700;
+  font-weight: 300;
   line-height: 42px;
   text-transform: uppercase;
 }
@@ -194,31 +195,26 @@ hr{
   color: #ccd0d7;
   font-weight: 400;
   line-height: 26px;
-  background-color: #1d2126;
-  opacity: 0.7;
-  padding-top: 23px;
-  padding-bottom: 11px;
-  margin-top: 8px;
+  margin-top: 16px;
 }
 .btn-group-carousel{
-  margin-top: 30px;
+  margin-top: 45px;
 }
 .btn-group-carousel .btn{
   font-size: 14px;
   color: #ffffff;
   font-family: 'Quattrocento Sans', sans-serif;
-  font-weight: 700;
+  font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  padding: 13px 38px 13px 20px;
+  padding: 13px 24px 13px 18px;
   border: 2px solid #ffffff;
-  border-radius: 3px;
+  border-radius: 5px;
   text-decoration: none;
-  margin-right: 15px;
+  margin-right: 8px;
 }
 .btn-group-carousel .btn:hover {
   color: #ffffff;
-  padding: 13px 38px 13px 20px;
   border: 2px solid #23b7a4;
   background-color: #23b7a4;
   transition: 0.3s;
@@ -232,6 +228,7 @@ hr{
 }
 .title-wrapper {
   margin-top: 86px;
+  height: 35px;
   color: #292f36;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 36px;
@@ -245,35 +242,40 @@ hr{
   color: #8d8f92;
   font-weight: 400;
   line-height: 26px;
-  width: 53%;
+  width: 54%;
 }
 .we-are-modest .text p:nth-last-child(2){
-  margin-top: 30px;
+  margin-top: 26px;
 }
 .we-are-modest .section-modest{
-  margin-top: 63px;
+  margin-top: 54px;
   display: flex;
   flex-direction: row;
   align-items: flex-start;
 }
 .we-are-modest .icons-socials{
   display: flex;
-  margin-top: 54px;
+  margin-top: 48px;
 }
 
 .we-are-modest .number-text{
-  width: 45%;
-  margin-left: 15px;
+  width: 42%;
+  margin-left: 17px;
+  margin-top: 9px;
 
+}
+.we-are-modest .paragraph{
+  font-size: 14px;
+  line-height: 25px;
 }
 .we-are-modest .number-text .card{
   display: flex;
-  margin-bottom: 25px;
+  margin-bottom: 32px;
 }
 .we-are-modest .number-text .number {
   padding: 13px 14px;
   background-color: #23b7a4;
-  width: 50px;
+  width: 52px;
   height: 50px;
   color: #ffffff;
   font-family: 'Quattrocento Sans', sans-serif;
@@ -283,7 +285,7 @@ hr{
 }
 .we-are-modest .card .text {
   margin-left: 20px;
-  margin-top: -20px;
+  margin-top: -13px;
   width: 100%;
 }
 .we-are-modest .card .title-card{
@@ -294,13 +296,20 @@ hr{
   line-height: 42px;
   text-transform: uppercase;
 }
-
-
-.icon{
+.we-are-modest .icon{
   width: 60px;
   height: 60px;
   background-color: #c8cdd0;
   margin-right: 1px;
+  position: relative;
+}
+
+.meet-team .icon{
+  width: 50px;
+  height: 50px;
+  background-color: #c8cdd0;
+  margin-right: 1px;
+  position: relative;
 }
 .we-are-modest .icon:hover{
   background-color: #d0d5d9;
@@ -313,7 +322,7 @@ hr{
   position: absolute;
   display: none;
   top: 125px;
-  left: 37px;
+  left: 60px;
 }
 .meet-team .card:hover .icons{
   display: flex;
@@ -321,70 +330,46 @@ hr{
 .meet-team .icon{
   background-color: #3a454d;
 }
-.fb {
-  position: relative;
-}
-.fb::before{
-  content: '';
+.fb{
   position: absolute;
   display: flex;
-  background: url(../assets/images/F.png) 0 0 no-repeat;
   background-size: 13px;
   width: 13px;
   height: 23px;
   top: 18px;
   left: 22px;
 }
-.tw {
-  position: relative;
-}
-.tw::before{
-  content: '';
+.tw{
   position: absolute;
   display: flex;
-  background: url(../assets/images/L.png) 0 0 no-repeat;
   background-size: 22px;
   width: 22px;
   height: 18px;
   top: 20px;
   left: 20px;
 }
-.gg {
-  position: relative;
-}
-.gg::before{
-  content: '';
+.gg{
   position: absolute;
   display: flex;
-  background: url(../assets/images/g.png) 0 0 no-repeat;
   background-size: 13px;
   width: 13px;
   height: 23px;
   top: 20px;
   left: 22px;
 }
-.pe {
-  position: relative;
-}
-.pe::before{
-  content: '';
+.pe{
   position: absolute;
   display: flex;
-  background: url(../assets/images/D.png) 0 0 no-repeat;
   background-size: 22px;
   width: 22px;
   height: 22px;
   top: 20px;
   left: 18px;
 }
-.be {
-  position: relative;
-}
-.be::before{
-  content: '';
+
+.be{
   position: absolute;
   display: flex;
-  background: url(../assets/images/e.png) 0 0 no-repeat;
   background-size: 27px;
   width: 27px;
   height: 17px;
@@ -392,13 +377,8 @@ hr{
   left: 17px;
 }
 .in{
-  position: relative;
-}
-.in::before{
-  content: '';
   position: absolute;
   display: flex;
-  background: url(../assets/images/I.png) 0 0 no-repeat;
   background-size: 19px;
   width: 25px;
   height: 24px;
@@ -407,11 +387,41 @@ hr{
 }
 
 /*meet the team.*/
+.meet-team .fb{
+  position: absolute;
+  display: flex;
+  width: 13px;
+  height: 23px;
+  top: 13px;
+  left: 18px;
+  object-fit: none;
+}
+.meet-team .tw {
+  position: absolute;
+  display: flex;
+  width: 22px;
+  height: 18px;
+  top: 16px;
+  object-fit: none;
+  left: 15px;
+}
+.meet-team .in{
+  position: absolute;
+  display: flex;
+  width: 25px;
+  object-fit: none;
+  height: 24px;
+  top: 13px;
+  left: 13px;
+}
+
+
+
 .meet-team .title-wrapper{
   margin-top: 85px;
 }
 .meet-team .cards{
-  margin-top: 63px;
+  margin-top: 60px;
   display: flex;
   flex-direction: row;
   justify-content: space-between;
@@ -419,7 +429,7 @@ hr{
 }
 .meet-team .card-text{
   background-color: #e1e6ea;
-  padding: 5px 20px;
+  padding: 10px 20px;
 }
 .meet-team .card{
   display: flex;
@@ -443,7 +453,6 @@ hr{
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 16px;
   font-weight: 700;
-  line-height: 35px;
   text-transform: uppercase;
 }
 .meet-team .position{
@@ -482,8 +491,8 @@ hr{
 .lovely-work .album .card .plus {
   display: none;
   position: absolute;
-  top: 35%;
-  left: 46%;
+  top: 99px;
+  left: 49%;
 }
 .lovely-work .album .plus::after{
   content: '';
@@ -506,7 +515,7 @@ hr{
 .lovely-work .album .card{
   position: relative;
   width: 360px;
-  margin-bottom: 30px;
+  margin-bottom: 22px;
 }
 .lovely-work .album .card .image{
   background: #000000;
@@ -515,7 +524,7 @@ hr{
 .lovely-work .album .card .name{
   display: none;
   position: absolute;
-  bottom: 6px;
+  bottom: 7px;
   background-color: #292f36;
   width: 100%;
   color: #ffffff;
@@ -524,7 +533,7 @@ hr{
   font-weight: 400;
   line-height: 42px;
   text-transform: uppercase;
-  padding: 18px 0;
+  padding: 9px 0;
   padding-left: 20px;
 }
 .lovely-work .btn {
@@ -535,15 +544,15 @@ hr{
 .lovely-work .btn .lovely-work-button{
   border: 2px solid #ffffff;
   background-color: transparent;
-  padding: 6px 25px 6px 15px;
-  border-radius: 3px;
+  padding: 6px 20px 6px 18px;
+  border-radius: 7px;
   color: #ffffff;
   font-family: 'Quattrocento Sans', sans-serif;
   font-size: 14px;
   font-weight: 400;
   line-height: 28px;
   text-transform: uppercase;
-  margin: 62px 0;
+  margin: 33px 0 60px;
 }
 
 /*lovely-work hover*/
@@ -683,7 +692,7 @@ hr{
 }
 .stay-in-touch .info .pc-info input{
   border: none;
-  width: 240px;
+  width: 275px;
   padding: 10px 0;
   background-color: #eaeef1;
   border-radius: 4px;
@@ -782,6 +791,7 @@ footer{
     padding: 13px 0;
     background: #1d2126;
     position: absolute;
+    margin: 0;
   }
   .nav-items a {
     border: none;
@@ -870,6 +880,7 @@ footer{
   }
   .carousel-text .title{
     font-size: 18px;
+    font-weight: bold;
   }
   .carousel-text .paragraph{
     display: none;
@@ -879,10 +890,11 @@ footer{
     height: 320px;
   }
   .btn-group-carousel .btn {
-    margin-right: -6px;
+    margin-right: 5px;
   }
   .title-wrapper{
     font-size: 30px;
+    margin-bottom: 50px;
   }
   .we-are-modest .section-modest {
     margin-top: 63px;
@@ -893,7 +905,8 @@ footer{
   .we-are-modest .number-text {
     width: 100%;
     margin-left: 0;
-    margin-top: 40px;
+    margin-top: 50px;
+    padding-top: 50px;
   }
   .we-are-modest .text {
     color: #8d8f92;
@@ -907,7 +920,7 @@ footer{
     justify-content: space-evenly;
   }
   .meet-team .card {
-    margin-top: 20px;
+    margin-top: 35px;
     width: 275px;
   }
   .what-we-do .cards {
@@ -975,5 +988,41 @@ footer{
     width: 100%;
     display: flex;
     justify-content: center;
+  }
+  hr {
+    margin-top: 50px;
+  }
+  .meet-team .title-wrapper {
+    margin-top: 50px;
+  }
+  .meet-team .cards {
+    margin-top: 35px;
+  }
+  .lovely-work .album .card {
+    margin-bottom: 50px;
+  }
+  .lovely-work .album .card .plus {
+    top: 82px;
+    left: 45%;
+  }
+  .what-we-do .card .title {
+    margin-top: 15px;
+  }
+  .what-we-do .card .text {
+    line-height: 25px;
+    margin-top: 15px;
+  }
+  .what-we-do .cards {
+    margin-top: 20px;
+  }
+  .features {
+    margin-top: 100px;
+  }
+  .features .cards .title {
+    margin-top: 10px;
+    line-height: 25px;
+  }
+  .features .cards .text {
+    margin-top: 10px;
   }
 }
