@@ -620,7 +620,8 @@ hr{
   justify-content: space-between;
 }
 .features .cards .card{
-  width: 361px;
+  flex-basis: calc(100% / 3 - 20px);
+  margin-right: 20px;
 }
 .features .cards .title{
   margin-top: 54px;
@@ -693,15 +694,16 @@ hr{
 .stay-in-touch .info .pc-info input{
   border: none;
   width: 275px;
-  padding: 10px 0;
   background-color: #eaeef1;
   border-radius: 4px;
+  padding: 10px 20px;
 }
 .stay-in-touch .info textarea{
   border: none;
   background-color: #eaeef1;
   border-radius: 4px;
   width: 90%;
+  padding: 10px 20px;
 }
 .stay-in-touch .info .area{
   margin-top: 30px;
@@ -1024,5 +1026,9 @@ footer{
   }
   .features .cards .text {
     margin-top: 10px;
+  }
+  .stay-in-touch .btn{
+    display: flex;
+    justify-content: center;
   }
 }
